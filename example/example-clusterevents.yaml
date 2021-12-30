@@ -1,0 +1,7 @@
+apiVersion: crdevents.k8s.io/v1
+kind: ClusterEvents
+metadata:
+  name: example-clusterevents
+spec:
+  ip: "127.0.0.1"
+  port: 8080
